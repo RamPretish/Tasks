@@ -8,3 +8,5 @@ activity feature1
 activity master1
 activity master2
 
+activity featurebranch1
+activity featurebranch2
