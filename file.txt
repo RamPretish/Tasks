@@ -2,5 +2,9 @@ activity a
 activity b
 activity c
 
+activity feature
+activity feature1
+
 activity master1
 activity master2
+
