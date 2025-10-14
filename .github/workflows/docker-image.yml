@@ -14,6 +14,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
+    - name: Login into Docker
+      run: docker login -u pavithrasasi9722 -p Ammasai1031@123
     - name: Build the Docker image
       run: docker build -t pavithrasasi9722/cppwindows:3 .
     - name: Push the Docker image
